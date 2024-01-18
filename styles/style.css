@@ -94,10 +94,24 @@ nav a {
   max-width: 585px;
 }
 /* main section styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about section styles */
 .about {
   border-radius: 10px;
   background-color: #fff8f3;
   padding: 130px;
   margin: 130px 0;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+  color: var(--Dark-02, #474747);
+  font-size: 20px;
 }
